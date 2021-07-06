@@ -1,13 +1,14 @@
 //  const fetch=require("node-fetch")
-// const Discord=require("discord.js");
+const Discord=require("discord.js");
 const keepAlive = require("./app");
-// const client = new Discord.Client();
+console.log(`server running...`);
+const client = new Discord.Client();
 
-// client.login(`ODU5MjcwMDI2NjA2MjgwNzQ0.YNqPkg.62VOdloyGgExVATiHMXvX84mVYE`);
+client.login(`ODU5MjcwMDI2NjA2MjgwNzQ0.YNqPkg.62VOdloyGgExVATiHMXvX84mVYE`);
 
-// client.on("ready",()=>{
-//   console.log(`logged in as ${client.user.tag}...`);
-// })
+client.on("ready",()=>{
+  console.log(`logged in as ${client.user.tag}...`);
+})
 // let pin;
 // let date;
 
